@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f9f9f9;
+}
+
+.contenedor{
+    display: flex;
+    gap: 20px;
+}
+
+.tarjeta{
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    transition: transform 0.3s;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.info {
+    padding: 10px;
+}
+
+.info h3 {
+    margin: 10px 0;
+}
+
+.info p {
+    color: #888;
+    font-size: 14px;
+}
+
+.precio{
+    font-size: 20px;
+    font-weight: bold;
+    color: #FFD700;
+}
+
+.tarjeta:hover .precio {
+    color: gray;
+}
+
+.precio2{
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+.tarjeta:hover .precio2 {
+    color: gray;
+}
+
+.precio3{
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+}
+.tarjeta:hover .precio3 {
+    color: gray;
+}
+.barraabajo{
+    padding: 10px;
+    background-color: #FFD700;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.tarjeta:hover .barraabajo {
+    background-color: gray;
+    color: white;
+}
+
+
+
+.barraabajo2{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.tarjeta:hover .barraabajo2 {
+    background-color: gray;
+    color: white;
+}
+
+.barraabajo3{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.tarjeta:hover .barraabajo3 {
+    background-color: gray;
+    color: white;
+}
